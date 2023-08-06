@@ -1,0 +1,110 @@
+.block {
+  display: flex;
+  flex-direction: column;
+
+  width: 33rem;
+  height: 24rem;
+
+  background-color: #ffffff;
+  border-radius: 2rem;
+
+  color: #000000;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  transition: 0.2s ease-in-out;
+}
+
+.block:hover {
+  box-shadow: #ff0000 0rem 0.1rem 1rem;
+}
+
+.img-cont {
+  width: auto;
+  height: 16.5rem;
+
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+
+  overflow: hidden;
+}
+
+.img-cont > img {
+  display: flex;
+  justify-content: center;
+
+  width: 40rem;
+  height: auto;
+
+  position: relative;
+  top: 12%;
+  transform: translateY(-12%);
+}
+
+.block-desc {
+  display: flex;
+  flex-direction: row;
+
+  align-content: space-between;
+}
+
+.label {
+  margin-left: 0.75rem;
+
+  max-width: 33rem;
+
+  font-weight: bold;
+  font-size: 1.1rem;
+
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  width: 28rem;
+}
+
+.desc {
+  flex: 10;
+
+  margin: 0rem;
+  margin-left: 2rem;
+
+  max-width: 33rem;
+
+  font-size: 1rem;
+
+  text-decoration: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  width: 29rem;
+}
+
+.btn {
+  flex: 1;
+
+  margin: 0rem;
+  padding: 0.35rem;
+
+  font-size: 2rem;
+  text-align: center;
+
+  position: relative;
+  top: 1rem;
+
+  color: #e8e8e8;
+  background-color: #a60000;
+
+  border-bottom-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+}

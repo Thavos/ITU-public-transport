@@ -1,0 +1,44 @@
+[ 
+    {
+        "Počet zón": "2 zóny",
+        "Platnost": "15 minut v zónách 100+101 -- 45 minut mimo zóny 100+101",
+        "Základní": "20 Kč",
+        "Zlevněná A*": "10 Kč"
+    },
+    {
+        "Počet zón": "2 zóny",
+        "Platnost": "60 minut",
+        "Základní": "25 Kč",
+        "Zlevněná A*": "12 Kč"
+    },
+    {
+        "Počet zón": "3 zóny",
+        "Platnost": "90 minut",
+        "Základní": "27 Kč",
+        "Zlevněná A*": "13 Kč"
+    },
+    {
+        "Počet zón": "4 zóny",
+        "Platnost": "90 minut",
+        "Základní": "34 Kč",
+        "Zlevněná A*": "17 Kč"
+    },
+    {
+        "Počet zón": "5 zón",
+        "Platnost": "120 minut",
+        "Základní": "42 Kč",
+        "Zlevněná A*": "21 Kč"
+    },
+    {
+        "Počet zón": "univerzální jízdenka",
+        "Platnost": "dle počtu označených polí",
+        "Základní": "156 Kč",
+        "Zlevněná A*": "78 Kč"
+    },
+    {
+        "Počet zón": "doplatková jízdenka pro 1 tarifní zónu v kombinaci s předplatní jízdenkou",
+        "Platnost": "-",
+        "Základní": "16 Kč",
+        "Zlevněná A*": "8 Kč"
+    }
+]

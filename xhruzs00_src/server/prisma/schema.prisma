@@ -1,0 +1,57 @@
+// Author: Simon Peter Hruz (xhruzs00)
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// =======================
+// =   Database Schema   =
+// =======================
+
+model User {
+  id    Int    @id @default(autoincrement())
+  email String @unique
+  pwd   String
+}
+
+model Article {
+  id        Int    @id @default(autoincrement())
+  label     String
+  descShort String @default("")
+  desc      String
+  picture   String
+}
+
+model Connection {
+  id     Int    @id @default(autoincrement())
+  number String
+  type   Int // SALINA | BUS | TROLEJBUS
+
+  stops     String
+  exclusion String
+  signs     String @default("o: zastávka od 20 do 5 hodin na znamení-z: zastávka celodenně na znamení-w: zastávka v prac.dnech od 20 do 5 hodin, v sobotu a neděli celodenně na znamení")
+}
+
+model Destination {
+  id Int @id @default(autoincrement())
+
+  number   String
+  lastStop String
+
+  timings  String
+  workdays String
+  holidays String
+  weekends String
+  signs    String @default("L : jede po trase jen po zastávku Lipová-N : jede jen do zastávky Nové sady a dále do smyčky Nové sady-$ : spoj není zajištěn bezbariérově přístupným vozidlem-Všechny spoje linky, s výjimkou odjezdů označených symbolem $, jsou zajišťovány bezbariérověpřístupným vozidlem")
+}
+
+model Stop {
+  id    Int    @id @default(autoincrement())
+  label String @unique
+
+  connections String
+}

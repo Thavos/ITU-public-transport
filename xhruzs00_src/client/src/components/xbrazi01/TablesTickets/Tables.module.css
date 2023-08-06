@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  th,
+  td {
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .label {
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: #ff0000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .buy_block{
+    
+    width: 12rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+
+    border-radius: 1rem;
+    border-width: 0.2rem;
+    border-style: ridge;
+    border-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+  }
+  
+  .buy_block:hover{
+    color: #000000;
+    background-color:  rgb(255, 255, 255);
+  }
+ 
+  

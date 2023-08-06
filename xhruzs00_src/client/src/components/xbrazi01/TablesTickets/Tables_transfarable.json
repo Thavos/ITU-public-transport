@@ -1,0 +1,32 @@
+[ 
+    {   
+        "Jízdenka": "Jednodenní (24 hodin)", 
+        "Platí pro zóny": "100 + 101",
+        "Základní cena": "90 Kč",
+        "Snížená cena": "45 Kč"
+    },
+    {
+        "Jízdenka": "Pětidenní (5 dnů)",
+        "Platí pro zóny": "100 + 101",
+        "Základní cena": "250 Kč",
+        "Snížená cena": "-"
+    },
+    {   
+        "Jízdenka": "Čtrnáctidenní (14 dnů)",
+        "Platí pro zóny": "100 + 101",
+        "Základní cena": "420 Kč",
+        "Snížená cena": "-"
+    },
+    {
+        "Jízdenka": "Měsíční (30 dnů)",
+        "Platí pro zóny": "100 + 101",
+        "Základní cena": "750 Kč",
+        "Snížená cena": "-" 
+    },
+    {
+        "Jízdenka": "Roční I. (365 dnů)",
+        "Platí pro zóny": "100 + 101",
+        "Základní cena": "6 100 Kč",
+        "Snížená cena": "-"     
+    }
+]

@@ -1,0 +1,68 @@
+[ 
+    {
+        "Počet zón": "2 zóny (přestupní)",
+        "Platnost": "15 / 45 minut",
+        "Základní": "20 Kč",
+        "Zlevněná A*": "10 Kč"
+    },
+    {
+        "Počet zón": "2 zóny (přestupní)",
+        "Platnost": "60 minut",
+        "Základní": "25 Kč",
+        "Zlevněná A*": "12 Kč"
+    },
+    {
+        "Počet zón": "3 zóny (přestupní)",
+        "Platnost": "90 minut",
+        "Základní": "27 Kč",
+        "Zlevněná A*": "13 Kč"
+    },
+    {
+        "Počet zón": "4 zóny (přestupní)",
+        "Platnost": "90 minut",
+        "Základní": "34 Kč",
+        "Zlevněná A*": "17 Kč"
+    },
+    {
+        "Počet zón": "5 zóny (přestupní)",
+        "Platnost": "120 minut",
+        "Základní": "42 Kč",
+        "Zlevněná A*": "21 Kč"
+    },
+    {
+        "Počet zón": "6 zóny (přestupní)",
+        "Platnost": "120 minut",
+        "Základní": "49 Kč",
+        "Zlevněná A*": "24 Kč"
+    },
+    {
+        "Počet zón": "7 zóny (přestupní)",
+        "Platnost": "150 minut",
+        "Základní": "56 Kč",
+        "Zlevněná A*": "28 Kč"
+    },
+    {
+        "Počet zón": "8 zóny (přestupní)",
+        "Platnost": "150 minut",
+        "Základní": "63 Kč",
+        "Zlevněná A*": "31 Kč"
+    },
+    {
+        "Počet zón": "9 zóny (přestupní)",
+        "Platnost": "180 minut",
+        "Základní": "71 Kč",
+        "Zlevněná A*": "35 Kč"
+    },
+    {
+        "Počet zón": "10 zóny (přestupní)",
+        "Platnost": "180 minut",
+        "Základní": "78 Kč",
+        "Zlevněná A*": "39 Kč"
+    },
+    {
+        "Počet zón": "libovolný počet zón (přestupní)",
+        "Platnost": "180 minut",
+        "Základní": "86 Kč",
+        "Zlevněná A*": "43 Kč"
+    }
+]

@@ -1,0 +1,30 @@
+.label {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  color: #ff0000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.block{
+  height: 42rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: blue;
+  flex-direction: row;
+  display: flex;
+}
+
+.step_block{
+  flex-direction: row;
+  display: flex;
+  width: 36rem;
+  height: 20rem;
+  align-self: center;
+  padding: 1rem;
+  
+}
+
+.step_block > img{
+  width: 50%;
+  max-height: 21rem;
+}

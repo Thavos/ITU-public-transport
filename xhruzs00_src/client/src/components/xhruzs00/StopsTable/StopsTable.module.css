@@ -1,0 +1,193 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-left: 0.75rem;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 33.8rem;
+
+  font-size: 1.6rem;
+  font-weight: bold;
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+}
+
+.label > div {
+  flex: 1;
+  border-bottom: solid black 0.125rem;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+}
+
+.table-column {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 0.5rem;
+}
+
+.table-column-stops {
+  flex: 1;
+
+  max-width: 12rem;
+}
+
+.table-column-hours {
+  flex: 0.2;
+}
+
+.table-column-times {
+  flex: 3;
+}
+
+.table-label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.4rem;
+
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  border-bottom: solid black 0.125rem;
+}
+
+.table-list {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1.2rem;
+}
+
+.table-list > div {
+  height: 1.39rem;
+}
+
+.zone-stops {
+  text-align: center;
+  border-bottom: solid black 0.1rem;
+}
+
+.btn-stops {
+  border: none;
+  background-color: transparent;
+
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  margin: 0rem;
+  padding: 0rem;
+
+  height: 1.39rem;
+
+  transition: 0.2s ease-in-out;
+}
+
+.row-even {
+  background-color: #d6d6d6;
+}
+
+.btn-stops:hover {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.btn-stops-active {
+  padding-left: 0.5rem;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.btn-days {
+  flex: 1;
+
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+
+  border: none;
+  color: white;
+  background-color: #aa2121;
+  margin: 0.15rem;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.4rem;
+
+  transition: 0.4s ease-in-out;
+}
+
+.btn-days:hover {
+  color: #ffffff;
+  background-color: #ff0000;
+
+  box-shadow: 0rem 0.1rem 0.5rem black;
+}
+
+.btn-days-active {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
+.days-label {
+  display: flex;
+  flex-direction: row;
+
+  padding-bottom: 0rem !important;
+
+  max-width: 44.75rem;
+}
+
+.list-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.list-row > div {
+  margin-right: 2rem;
+  width: 1rem;
+}
+
+.loading {
+  font-size: 2rem;
+  height: 36.1rem;
+}
+
+.signs {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.1rem;
+}
+
+.signs > div {
+  flex: 1;
+}

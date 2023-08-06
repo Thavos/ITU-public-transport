@@ -1,0 +1,23 @@
+[ 
+    {
+        "Zóny": "100+101",
+        "Cena": "20 Kč",
+        "Platnost": "20 minut",
+        "Tvar SMS": "BRNO20",
+        "Telefonní číslo": "90206"
+    },
+    {
+        "Zóny": "100+101",
+        "Cena": "29 Kč",
+        "Platnost": "75 minut",
+        "Tvar SMS": "BRNO",
+        "Telefonní číslo": "90206"
+    },
+    {
+        "Zóny": "100+101",
+        "Cena": "99 Kč",
+        "Platnost": "24 hodin",
+        "Tvar SMS": "BRNOD",
+        "Telefonní číslo": "90206"
+    }
+]

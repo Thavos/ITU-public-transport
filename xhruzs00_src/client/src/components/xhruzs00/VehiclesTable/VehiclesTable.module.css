@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin-left: 0.75rem;
+}
+
+.img {
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+
+  background-color: #00ffff;
+  filter: invert(1);
+}
+
+.type {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 0.5rem;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-left: 1rem;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.vehicle {
+  border: none;
+
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+
+  display: flex;
+
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 2rem;
+  width: 3rem;
+  height: 3rem;
+
+  background-color: #aa2121;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s ease-in-out;
+}
+
+.vehicle:hover {
+  background-color: #ff0000;
+
+  box-shadow: 0rem 0.3rem 0.5rem black;
+}
+
+.vehicle:focus {
+  background-color: #ff0000;
+}
+
+.night-bus {
+  font-size: 1.8rem;
+}

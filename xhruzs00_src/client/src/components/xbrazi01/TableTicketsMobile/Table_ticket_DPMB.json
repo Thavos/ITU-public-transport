@@ -1,0 +1,32 @@
+[ 
+    {
+        "Pro zóny": "100+101 (přestupní, mimo vlak)",
+        "Cena": "19 Kč",
+        "Platnost": "20 minut",
+        "Způsob platby": "Platební kartou"
+    },
+    {
+        "Pro zóny": "100+101 (přestupní, mimo vlak)",
+        "Cena": "24 Kč",
+        "Platnost": "40 minut",
+        "Způsob platby": "Platební kartou"
+    },
+    {
+        "Pro zóny": "100+101 (přestupní, mimo vlak)",
+        "Cena": "29 Kč",
+        "Platnost": "75 minut",
+        "Způsob platby": "Platební kartou"
+    },
+    {
+        "Pro zóny": "100+101 (přestupní, mimo vlak)",
+        "Cena": "99 Kč",
+        "Platnost": "24 hodin",
+        "Způsob platby": "Platební kartou"
+    },
+    {
+        "Pro zóny": "100+101 (přestupní, pro děti do 15 let, mimo vlak)",
+        "Cena": "12 Kč",
+        "Platnost": "40 minut",
+        "Způsob platby": "Platební kartou"
+    }
+]

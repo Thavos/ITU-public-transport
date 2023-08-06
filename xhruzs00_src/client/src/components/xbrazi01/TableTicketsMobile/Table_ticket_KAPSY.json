@@ -1,0 +1,27 @@
+[ 
+    {
+        "Zóny": "100+101 (mimo vlak)",
+        "Cena": "12 Kč*",
+        "Platnost": "40 minut"
+    },
+    {
+        "Zóny": "100+101 (mimo vlak)",
+        "Cena": "19 Kč",
+        "Platnost": "20 minut"
+    },
+    {
+        "Zóny": "100+101 (mimo vlak)",
+        "Cena": "24 Kč",
+        "Platnost": "40 minut"
+    },
+    {
+        "Zóny": "100+101 (mimo vlak)",
+        "Cena": "29 Kč",
+        "Platnost": "75 minut"
+    },
+    {
+        "Zóny": "100+101 (mimo vlak)",
+        "Cena": "99 Kč",
+        "Platnost": "24 hodin"
+    }
+]

@@ -1,0 +1,26 @@
+[ 
+    {
+        "Platí pro zóny": "100 + 101",
+        "Základní cena": "1 370 Kč",
+        "Snížená cena I.": "685 Kč",
+        "Snížená cena II.": "800 Kč"
+    },
+    {
+        "Platí pro zóny": "100 + 101 + 1 zóna",
+        "Základní cena": "2 090 Kč",
+        "Snížená cena I.": "1045 Kč",
+        "Snížená cena II.": "1340 Kč"
+    },
+    {
+        "Platí pro zóny": "100 + 101 + 2 zóny",
+        "Základní cena": "2 780 Kč",
+        "Snížená cena I.": "1390 Kč",
+        "Snížená cena II.": "1850 Kč"
+    },
+    {
+        "Platí pro zóny": "100 + 101 + 3 zóny",
+        "Základní cena": "3510 Kč",
+        "Snížená cena I.": "1755 Kč",
+        "Snížená cena II.": "2400 Kč"
+    }
+]
